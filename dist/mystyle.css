@@ -1,0 +1,354 @@
+body {
+    color: rgb(44, 62, 80);
+    font-family: Optima;
+    font-size: 1.5rem;
+
+    background-color: white;
+    transition: 0.5s;
+    /* background-image: url('https://images.unsplash.com/photo-1615800098779-1be32e60cca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1010&q=80') !important;
+    background-size: 100%;
+    background-attachment: fixed; */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+body ::selection {
+    color: rgb(44, 62, 80);
+    background-color: white;
+}
+
+.main-text ::selection {
+    color: white;
+    background-color: rgb(119, 68, 99);
+}
+
+#app {
+    width: 100%;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+.btn-primary {
+    margin-bottom: 1rem !important
+}
+
+.hg-navbar a {
+    font-size: 2.3rem;
+    color: rgb(86, 4, 54);
+    border-left: 5px solid rgb(255, 255, 255);
+    padding-left: 0.5rem;
+    /* text-shadow: 0px 0px 30px rgb(0, 0, 0); */
+
+}
+
+.hg-main-menu {
+    font-size: 2rem;
+
+
+}
+
+.hg-main-menu a {
+    color: black;
+    border-bottom: solid white 5px;
+
+}
+
+.navbar-nav li a {
+    color: black;
+    border-bottom: solid white 5px;
+    padding-bottom: 10px !important;
+}
+
+.navbar-nav li a:hover {
+    background-color: white !important;
+    color: rgb(156, 127, 146);
+}
+
+.my-header {
+    height: 30%;
+    padding: 5rem;
+    background-size: 100%;
+    background-image: url('/scroll-bw.jpg') !important;
+
+    color: white;
+    font-size: 5rem;
+
+}
+
+
+
+.page-list div {
+    width: 100%;
+    border-bottom: 2px solid rgb(237, 237, 237);
+    padding-left: 2rem;
+
+}
+
+/* .my-paper {
+    background-image: url('https://images.unsplash.com/photo-1615800098779-1be32e60cca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1010&q=80') !important;
+    background-size: 100%;
+    background-attachment: fixed;
+} */
+
+.my-center {
+    background-color: white;
+    margin-top: 40px;
+    /* box-shadow: gray 0px 0px 10px 2px;
+    padding: 40px; */
+}
+
+.page-list div a {
+    color: black;
+}
+
+a :hover {
+    /* text-decoration: none;  */
+    color: rgb(0, 77, 77)
+}
+
+a {
+    color: rgb(86, 4, 54);
+    transition: 0.3s;
+
+}
+
+.hg-navbar a :hover {
+    font-size: 10rem;
+    text-decoration: none;
+    color: rgb(119, 68, 99);
+    ;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+
+    /* font-style: italic; */
+}
+
+h4 {
+    font-size: 2rem;
+
+    font-style: italic;
+    /* border-left: 9px solid rgb(86, 4, 54); */
+    padding-left: 10px;
+}
+
+table,
+th {
+    border: 1px solid black;
+}
+
+table {
+    width: 100% !important;
+}
+
+th,
+td {
+    padding: 6px;
+}
+
+.verse {
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.chapter {
+    font-size: 2.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.quote {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.footnote {
+    font-size: 1.6rem;
+}
+
+.header {}
+
+.hg-mobile-menu {
+    position: relative;
+    z-index: 9999 !important;
+
+}
+
+.hg-navbar {
+    /* position: -webkit-sticky;
+    position: sticky; */
+    top: 0px;
+    margin-top: 5rem;
+    height: 100%;
+
+
+
+    display: block;
+
+    overflow-y: auto;
+    /* -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; */
+
+}
+
+.header {
+    border-bottom: 8px solid rgb(86, 4, 54);
+    padding-bottom: 10px;
+}
+
+.next {
+    margin: auto;
+
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: rgb(86, 4, 54)
+}
+
+.littlemenu a {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    font-size: 1.8rem;
+}
+
+.main-text {
+    /* float: right; */
+    font-size: 1.6rem;
+    margin-right: 8%;
+    padding-left: 10%;
+}
+
+.main-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-header a {
+    color: white;
+
+}
+
+.nav-b {
+    font-size: 2.3rem;
+
+}
+
+
+/* .littlemenu {
+    position: sticky; 
+    top: 20px;
+} */
+
+.active a {
+    color: rgb(86, 4, 54);
+
+    border-left: 5px solid rgb(86, 4, 54);
+}
+
+.chapter-active {
+    border-left: 5px solid rgb(86, 4, 54) !important;
+}
+
+.my-banner {
+    margin-left: 3rem;
+}
+
+#read-page {
+    margin-left: 8% !important;
+    margin-right: 15% !important;
+    margin-top: 1.5rem !important;
+}
+
+#active {
+    color: black;
+    padding-left: 0.5rem;
+    border-left: 5px solid rgb(86, 4, 54);
+}
+
+#tealarea {
+    background-color: rgb(86, 4, 54);
+}
+
+#title-of-page {
+    margin-left: 1.5rem;
+}
+
+#chapterList {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    padding-left: 15px;
+    font-size: 2.5rem;
+    z-index: 9999 !important;
+}
+
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1
+}
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+        margin-right: 2rem !important;
+        margin-left: 2rem !important;
+
+
+    }
+
+    .hg-main-menu {
+        display: none !important;
+        position: sticky;
+    }
+
+
+
+
+
+    #tealarea {
+        position: sticky;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 1rem;
+    }
+
+    .hg-mobile-menu {
+        display: none !important;
+    }
+
+
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .main-text {
+        float: right;
+    }
+}
